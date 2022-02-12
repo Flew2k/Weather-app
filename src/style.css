@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 :root {
     --mainColor: #FFFFFF;
     --nightColor: #111827;
@@ -10,8 +11,15 @@
 }
 
 body {
+    display: flex;
     background-color: var(--nightColor);
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    font-family: manrope;
+    
 }
+
 
 .container {
     display: flex;
@@ -24,4 +32,11 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 3%;
+}
+
+#input{
+    border: 1px solid black;
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
 }
