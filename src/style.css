@@ -32,3 +32,13 @@ header {
     border-radius: 25px;
     background-color:#8EC1DD ;
 }
+#Онсар{
+    position: absolute;
+    margin-top: 8vh;
+    left: 10vw;
+    width: 164px;
+    height: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #9CA3AF;
+}
