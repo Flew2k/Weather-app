@@ -25,3 +25,10 @@ header {
     justify-content: center;
     padding-top: 3%;
 }
+#search{
+    width: 50vw;
+    height: 3vh;
+    margin-top: 2vh;
+    border-radius: 25px;
+    background-color:#8EC1DD ;
+}
