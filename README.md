@@ -11,3 +11,5 @@ Figma link : https://www.figma.com/file/uuhmxGelxqHQvyXpkYNmsH/Miko%C5%82aj-Ni%C
 
 # API 
 Weather API & Google Map API
+
+# Finalize
