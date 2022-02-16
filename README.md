@@ -11,5 +11,5 @@ Figma link : https://www.figma.com/file/uuhmxGelxqHQvyXpkYNmsH/Miko%C5%82aj-Ni%C
 
 # API 
 Weather API & Google Map API
-
-# Finalize
+Weather API link: https://openweathermap.org/current
+<!-- Google Map API link: Places library and map js library -->
