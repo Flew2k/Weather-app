@@ -10,6 +10,7 @@ Figma link : https://www.figma.com/file/uuhmxGelxqHQvyXpkYNmsH/Miko%C5%82aj-Ni%C
 ![night](https://user-images.githubusercontent.com/66663634/153118936-7a1aa04d-3d37-48d1-95ef-bea17e970b32.png)
 
 # API 
-Weather API & Google Map API
+Weather API & Google Map API, 
+
 Weather API link: https://openweathermap.org/current
 <!-- Google Map API link: Places library and map js library -->
