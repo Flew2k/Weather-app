@@ -34,11 +34,41 @@ header {
 }
 #Онсар{
     position: absolute;
-    margin-top: 8vh;
+    margin-top: 4.5vh;
     left: 10vw;
     width: 164px;
     height: 25px;
     font-size: 18px;
     line-height: 25px;
     color: #9CA3AF;
+}
+#city{
+position: absolute;
+color: white;
+font-size: 40px;
+margin-left: 10vw;
+margin-top: 8vh;
+}
+#localization{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 300px;
+}
+#icon{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 32px;
+    width: 90vw;
+}
+#temp{
+    position: absolute;
+    top: 450px;
+    left: 60px;
+}
+#cloud{
+    color: #8EC1DD;
+    font-size: 25px;
+    position: absolute;
+    top: 600px;
+    left: 60px;
 }
