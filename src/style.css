@@ -3,7 +3,7 @@
     --nightColor: #111827;
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,17 +11,43 @@
 
 body {
     background-color: var(--nightColor);
+    width: 100vw;
+    height: 100vh;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    min-width: 100vw;
 }
 
 header {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 3%;
+}
+main section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 3%;
+}
+
+.date{
+    font-family:monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #687280;
+}
+
+.city{
+    font-family:monospace;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
 }
