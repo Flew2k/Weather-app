@@ -27,14 +27,14 @@ header {
 }
 #search{
     width: 50vw;
-    height: 3vh;
+    height: 3.5vh;
     margin-top: 2vh;
     border-radius: 25px;
     background-color:#8EC1DD ;
 }
 #Онсар{
     position: absolute;
-    margin-top: 4.5vh;
+    margin-top: 4vh;
     left: 10vw;
     width: 164px;
     height: 25px;
@@ -62,8 +62,8 @@ margin-top: 8vh;
 }
 #temp{
     position: absolute;
-    top: 450px;
-    left: 60px;
+    top: 470px;
+    left: 50px;
 }
 #cloud{
     color: #8EC1DD;
@@ -71,4 +71,10 @@ margin-top: 8vh;
     position: absolute;
     top: 600px;
     left: 60px;
+}
+#frame{
+    position: absolute;
+    top: 670px;
+    left: 30px;
+    width: 300px;
 }
