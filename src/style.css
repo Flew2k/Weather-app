@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;800&display=swap');
+
 :root {
     --mainColor: #FFFFFF;
     --nightColor: #111827;
+    --day: 180deg, #111827 0%, #6B7280 100%;
+    --night: 180deg, #F9FAFB 0%, rgba(249, 250, 251, 0) 100%;
+    --sunnyClear: #FF8E27;
+    --cloud: #8EC1DD;
+    --wind: #27B1FF;
+    --rain: #4E8DB1;
+    --snow: #8EC1DD;
+    --thunder: #BF8EDD;
 }
 
 * {
@@ -10,18 +21,93 @@
 }
 
 body {
-    background-color: var(--nightColor);
+    background-color: var(--mainColor);
+    width: 100vw;
+    height: 100vh;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    min-width: 100vw;
 }
 
 header {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 3%;
+}
+
+main section {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 5%;
+}
+
+.date {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #6B7280;
+}
+
+.city {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    color: var(--nightColor);
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.smile {
+    height: 350px;
+    width: 350px;
+    background-image: url('../assets/daySunny.svg');
+    background-size: cover;
+    background-position: center;
+}
+/* 
+.temp {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 144px;
+    line-height: 197px;
+    background: linear-gradient(var(--day));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+} */
+
+.status {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: var(--sunnyClear);
+}
+
+
+
+.temp {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 144px;
+    line-height: 197px;
+    background: linear-gradient(var(--day));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
