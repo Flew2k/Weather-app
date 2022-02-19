@@ -30,9 +30,9 @@ header {
     height: 3.5vh;
     margin-top: 2vh;
     border-radius: 25px;
-    background-color:#8EC1DD ;
+    border:3px solid #8EC1DD ;
 }
-#Онсар{
+#date{
     position: absolute;
     margin-top: 4vh;
     left: 10vw;
@@ -62,8 +62,10 @@ margin-top: 8vh;
 }
 #temp{
     position: absolute;
-    top: 470px;
-    left: 50px;
+    top:450px ;
+    left: 30px;
+    font-size: 90px;
+    color: white;
 }
 #cloud{
     color: #8EC1DD;
