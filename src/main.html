@@ -11,11 +11,12 @@
     <div class="container">
         <header>
             <div>
-                <input type="text" id="search" placeholder=" Search here.">
+                <input type="text" id="autocomplete" placeholder="Enter a place" class="searchBar">
             </div>
         </header>
         <main>
             <section class="location">
+                
                 <p id="date">September 10, 2021</p>
                 <p id="city">London</p>
             </section>
@@ -30,5 +31,8 @@
         </main>
     </div>
     <script src="java.js"></script>
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnaFlyzoIvS7XBjirgL3QGHF3NLFH4yE0&libraries=places&callback=initAutocomplete">
+    </script>
 </body>
 </html>

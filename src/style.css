@@ -25,7 +25,7 @@ header {
     justify-content: center;
     padding-top: 3%;
 }
-#search{
+#autocomplete{
     width: 50vw;
     height: 3.5vh;
     margin-top: 2vh;
